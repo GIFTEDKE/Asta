@@ -4,7 +4,8 @@ const fs = require("fs");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-import pkg, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
+const prepareWAMessageMedia = require("@whiskeysockets/baileys");
+const pkg = require("prepareWAMessageMedia");
 const { generateWAMessageFromContent, proto } = pkg;
 
 // Get total memory and free memory in bytes
