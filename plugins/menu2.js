@@ -5,7 +5,7 @@ const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
 const prepareWAMessageMedia = require("@whiskeysockets/baileys");
-const pkg = require("prepareWAMessageMedia");
+const pkg = prepareWAMessageMedia;
 const { generateWAMessageFromContent, proto } = pkg;
 
 // Get total memory and free memory in bytes
