@@ -1,6 +1,6 @@
-import moment from 'moment-timezone';
-import fs from 'fs';
-import os from 'os';
+const moment = require("moment-timezone");
+const os = require("os");
+const fs = require("fs");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
