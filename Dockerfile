@@ -1,11 +1,11 @@
 FROM node:lts-buster
 
-RUN git clone https://github.com/Emperordagoat/asta /root/Emperordagoat 
+RUN git clone https://github.com/GIFTEDKE/Asta /root/Gifted 
 
 RUN npm cache clean --force
-RUN rm -rf /root/Emperordagoat/node_modules
+RUN rm -rf /root/Gifted/node_modules
 
-WORKDIR /root/Emperordagoat
+WORKDIR /root/Gifted
 
 RUN npm install
 
